@@ -1,0 +1,35 @@
+{
+  "name": "matomo-react-tracker",
+  "version": "1.0.0",
+  "description": "A simple Matomo tracker for React SPAs to track pageviews and events",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shamaz332/matomo-react-tracker.git"
+  },
+  "keywords": [
+    "matomo",
+    "analytics",
+    "react",
+    "tracking",
+    "pageviews",
+    "events"
+  ],
+  "author": "Shamaz Saeed ( shamazsaeed332@gmail.com )",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shamaz332/matomo-react-tracker/issues"
+  },
+  "homepage": "https://github.com/shamaz332/matomo-react-tracker#readme",
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-router-dom": "^6.9.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17",
+    "react-router-dom": "^5.0.0 || ^6"
+  }
+}
