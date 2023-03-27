@@ -25,3 +25,14 @@ export function trackEvent(category, action, name, value) {
     window._paq.push(["trackEvent", category, action, name, value]);
   }
 }
+
+
+
+// Hooks
+export function useMatomoPageView() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    trackPageView();
+  }, [pathname]);
+}
