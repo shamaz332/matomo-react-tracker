@@ -1,6 +1,6 @@
 {
   "name": "matomo-react-tracker",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple Matomo tracker for React SPAs to track pageviews and events",
   "main": "src/index.js",
   "scripts": {
